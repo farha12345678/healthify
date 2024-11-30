@@ -1,0 +1,59 @@
+import Image from "next/image";
+import services from "../../../../public/assets/services.png"
+import check from "../../../../public/assets/check.png"
+import { FaCheckCircle } from "react-icons/fa";
+const Services = () => {
+    return (
+        <div>
+           <div className="hero min-h-screen">
+                <div className="hero-content gap-x-20 flex-col lg:flex-row-reverse relative">
+                    {/* Banner Image */}
+                    <div className="relative">
+                        <Image
+                            src={services}
+                            alt="banner"
+                            className="max-w-md rounded-lg shadow-2xl"
+                        />
+                        {/* Leaf Image */}
+                        <Image
+                            src={check}
+                            alt="leaf"
+                            className="absolute -left-5 top-1/4 transform -translate-y-1/2 rounded-full border border-white shadow-lg"
+                            width={50} // Adjust width as needed
+                            height={50} // Adjust height as needed
+                        />
+                       
+                    </div>
+
+                    {/* Content Section */}
+                    <div className="">
+                       
+                        <h1 className="text-5xl font-bold">We provide...</h1>
+                        {/* points */}
+                       <div>
+                        <div>
+                            <p><FaCheckCircle /></p>
+                            <p>Personalized routine</p>
+                        </div>
+                        <div>
+                            <p><FaCheckCircle /></p>
+                            <p>Follow-up after completing courses</p>
+                        </div>
+                        <div>
+                            <p></p>
+                            <p></p>
+                        </div>
+                        <div>
+                            <p></p>
+                            <p></p>
+                        </div>
+                       </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Services;
