@@ -53,7 +53,7 @@ const Services = () => {
                             <p >Free community support</p>
                         </div>
                         <div className="mt-10">
-                            <button className="text-[#287279] border border-[#287279] p-2">Learn More About Our Services</button>
+                            <button className="text-[#287279] border border-[#287279] p-2 rounded-2xl font-medium">Learn More About Our Services</button>
                         </div>
                        </div>
                        
