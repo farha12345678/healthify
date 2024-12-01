@@ -7,22 +7,20 @@ const Banner = () => {
         <div>
             <div className="hero bg-base-200 min-h-screen">
                 <div className="hero-content gap-x-20 flex-col lg:flex-row-reverse relative">
-                    {/* Banner Image */}
                     <div className="relative">
                         <Image
                             src={banner}
                             alt="banner"
                             className="lg:max-w-md rounded-lg shadow-2xl"
                         />
-                        {/* Leaf Image */}
                         <Image
                             src={leaf}
                             alt="leaf"
                             className="absolute -left-5 top-1/4 transform -translate-y-1/2 rounded-full border border-white shadow-lg"
-                            width={50} // Adjust width as needed
-                            height={50} // Adjust height as needed
+                            width={50} 
+                            height={50} 
                         />
-                        {/* Bottom Text */}
+                       
                         <div className="absolute bottom-2 p-2 left-0 w-full">
                             <div className=" bg-white/70 p-4 rounded-t-lg">
                                 <div className="flex items-center justify-center space-x-4 mb-2">
@@ -32,17 +30,13 @@ const Banner = () => {
                                         Happy learners <br /> rely on us regularly
                                     </p>
                                 </div>
-                                {/* Find Your Wellbeing Section */}
+                              
 
                             </div>
                             <div className="bg-white/90 w-full rounded-b-lg p-2 flex items-center space-x-2 text-xs">
-                                {/* Title */}
                                 <h2 className="font-semibold whitespace-nowrap">Find your wellbeing</h2>
 
-                                {/* Separator (Optional) */}
                                 <div className="h-3 w-px bg-gray-300"></div>
-
-                                {/* Text */}
                                 <p className="mt-0">
                                     By promoting self-care and making informed choices, you can enhance your overall quality of life.
                                 </p>
@@ -51,10 +45,7 @@ const Banner = () => {
 
                         </div>
                     </div>
-
-                    {/* Content Section */}
                     <div className="">
-                        {/* rating */}
                         <div className="flex gap-x-4 mb-6">
                             <div className="rating rating-md">
                                 <input type="radio" name="rating-8" className="mask mask-star-2 bg-orange-400" />

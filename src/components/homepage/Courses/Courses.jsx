@@ -14,16 +14,11 @@ import { MdWatchLater } from "react-icons/md";
 import { IoBookSharp } from "react-icons/io5";
 import { FaCheckCircle } from "react-icons/fa";
 import React, { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 
 import './courses.css';
-
-// import required modules
 import { FreeMode, Navigation } from 'swiper/modules';
 
 
