@@ -34,7 +34,7 @@ const Courses = () => {
       <div>
         <h1 className='text-3xl font-bold'>Our Popular Courses</h1>
         <div className="flex flex-col md:flex-row justify-between items-center mt-4">
-          <p className="text-center md:text-left mb-4">
+          <p className="text-center md:text-left text-gray-600 mb-4">
             By taking proactive steps to nurture mental health, we can enhance our quality of life, <br />
             build resilience and foster a sense of inner peace and balance.
           </p>
@@ -43,15 +43,15 @@ const Courses = () => {
           <div className="flex justify-center md:justify-start space-x-4">
             <button
               className="p-4 rounded-full text-[#287279] border hover:border-[#287279] flex items-center"
-              onClick={() => swiperRef.current.swiper.slidePrev()} // 
+              onClick={() => swiperRef.current.swiper.slidePrev()}
             >
-              <FaChevronLeft /> {/* Left Arrow Icon */}
+              <FaChevronLeft /> 
             </button>
             <button
               className="p-4 rounded-full text-[#287279] border hover:border-[#287279] flex items-center"
-              onClick={() => swiperRef.current.swiper.slideNext()} // Navigate to the next slide
+              onClick={() => swiperRef.current.swiper.slideNext()}
             >
-              <FaChevronRight /> {/* Right Arrow Icon */}
+              <FaChevronRight />
             </button>
           </div>
         </div>
@@ -59,42 +59,42 @@ const Courses = () => {
         {/* Card Section */}
         <div className='mt-5'>
           <Swiper
-            navigation={false} // Disable the default navigation buttons
+            navigation={false} 
             slidesPerView={3.5}
             spaceBetween={10}
             freeMode={true}
             modules={[]}
             breakpoints={{
-              // For mobile screens (up to 640px)
+              // For mobile screens
               300: {
                   slidesPerView: 1,
                   spaceBetween: 10,
               },
-              // For tablets (up to 768px)
+              // For tablets
               768: {
                   slidesPerView: 2,
                   spaceBetween: 15,
               },
-              // For desktops (up to 1024px)
+              // For desktops
               1024: {
                   slidesPerView: 3.5,
                   spaceBetween: 20,
               },
-              // Larger screens (default settings)
+             
           }}
             className="mySwiper"
-            ref={swiperRef} // Attach the ref to the Swiper component
+            ref={swiperRef} 
           >
           <SwiperSlide>
   <div className="card card-compact bg-base-100 w-80 relative group border border-transparent hover:border-purple-400 hover:bg-purple-100 transition-transform duration-300 ease-in-out">
-    {/* Image Section with Hover Icons */}
+    
     <figure className="h-48 relative">
       <Image
         src={img1}
         alt="Shoes"
         className="object-cover h-full w-full"
       />
-      {/* Icons: Love and Cart */}
+     
       <div className="absolute top-2 right-2 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="p-2 bg-purple-50 border border-purple-100 rounded-full">
           <AiOutlineHeart className="text-purple-600 text-lg" />
@@ -104,22 +104,16 @@ const Courses = () => {
         </div>
       </div>
     </figure>
-
-    {/* Tags Section */}
     <div className="flex gap-x-2 mt-3 ml-4 text-xs">
       <p className="p-1 bg-red-50 border border-red-200 rounded-lg">Beginner</p>
       <p className="p-1 bg-yellow-50 border border-yellow-200 rounded-lg">
         Nutrition and Diet
       </p>
     </div>
-
-    {/* Card Body Section */}
     <div className="card-body">
       <h2 className="card-title">
         Foundation of Sleep: Sleep Science and Sleep Disorders
       </h2>
-
-      {/* Rating Section */}
       <div className="flex items-center mt-2">
         <div className="rating flex">
           <input
@@ -151,8 +145,6 @@ const Courses = () => {
         </div>
         <p>4.9 (566)</p>
       </div>
-
-      {/* Duration and Lessons */}
       <div className="flex gap-x-4 mt-10">
         <div className="flex gap-x-1">
           <p className="text-xl text-purple-400">
@@ -170,8 +162,6 @@ const Courses = () => {
       </div>
 
       <div className="border"></div>
-
-      {/* Author and Price */}
       <div className="flex justify-between">
         <div className="flex gap-x-2 w-8 h-8">
           <Image
@@ -188,12 +178,7 @@ const Courses = () => {
     </div>
   </div>
 </SwiperSlide>
-
-
-
-
-
-            <SwiperSlide>
+<SwiperSlide>
               <div className="card card-compact bg-base-100 w-80 relative group border border-transparent hover:border-purple-400 hover:bg-purple-100 transition-transform duration-300 ease-in-out">
                 <figure className='h-48'>
                   <Image

@@ -7,26 +7,23 @@ const Services = () => {
         <div>
            <div className="hero min-h-screen">
                 <div className="hero-content gap-x-20 flex-col lg:flex-row-reverse relative">
-                    {/* Banner Image */}
                     <div className="relative">
                         <Image
                             src={services}
                             alt="banner"
                             className="lg:max-w-md rounded-lg shadow-2xl"
                         />
-                        {/* Leaf Image */}
+                       
                         <Image
                             src={check}
                             alt="leaf"
                             className="absolute -left-5 top-1/4 transform -translate-y-1/2 rounded-full border border-white shadow-lg"
-                            width={50} // Adjust width as needed
-                            height={50} // Adjust height as needed
+                            width={50} 
+                            height={50} 
                         />
                        
                     </div>
-
-                    {/* Content Section */}
-                    <div className="">
+                    <div className="mt-10 lg:mt-0">
                        
                         <h1 className="text-5xl font-bold">We provide...</h1>
                         {/* points */}

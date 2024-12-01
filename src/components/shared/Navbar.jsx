@@ -38,7 +38,7 @@ const Navbar = () => {
       <Image
       src={logo}
       alt="logo"
-      className="h-14 w-20 bg-transparent"
+      className="h-14 lg:w-20 w-16 bg-transparent"
       />
       <p className="text-2xl font-bold mt-3 text-[#287279]">Healthify</p>
       </div>

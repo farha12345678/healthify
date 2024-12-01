@@ -29,22 +29,22 @@ const Reviews = () => {
                 }}
                 modules={[Pagination]}
                 breakpoints={{
-                    // For mobile screens (up to 640px)
+                    // For mobile screens
                     300: {
                         slidesPerView: 1,
                         spaceBetween: 10,
                     },
-                    // For tablets (up to 768px)
+                    // For tablets
                     768: {
-                        slidesPerView: 2,
-                        spaceBetween: 15,
+                        slidesPerView: 3,
+                        spaceBetween: 10,
                     },
-                    // For desktops (up to 1024px)
+                    // For desktops
                     1024: {
-                        slidesPerView: 4,
-                        spaceBetween: 20,
+                        slidesPerView: 5,
+                        spaceBetween: 5,
                     },
-                    // Larger screens (default settings)
+                    // Larger screens
                 }}
                 className="mySwiper"
             >
@@ -52,10 +52,7 @@ const Reviews = () => {
     <div className="bg-purple-100 border border-blue-100 h-80 w-64 rounded-2xl p-4">
        
        <div className="flex justify-between">
-
-        {/* Image and Name Section */}
         <div className="flex flex-col items-center ">
-            {/* Author Image */}
             <div className="w-12 h-12">
                 <Image
                     src={auth}
@@ -66,8 +63,6 @@ const Reviews = () => {
                     className="rounded-full"
                 />
             </div>
-
-            {/* Author Name */}
             <p className="text-sm font-bold text-gray-700 mt-2">Killian Murphy</p>
         </div>
         <div className="text-xl font-bold text-purple-500">
@@ -83,7 +78,7 @@ const Reviews = () => {
                     <div className='bg-purple-100 border border-blue-100 h-60 w-64 rounded-2xl p-4'>
                     <div className="flex justify-between">
 
-{/* Image and Name Section */}
+
 <div className="flex flex-col items-center ">
     {/* Author Image */}
     <div className="w-12 h-12">
@@ -111,10 +106,8 @@ const Reviews = () => {
                 </SwiperSlide>
                 <SwiperSlide><div className='bg-purple-100 border border-blue-100 h-52 w-64 rounded-2xl p-4'>
                 <div className="flex justify-between">
-
-{/* Image and Name Section */}
 <div className="flex flex-col items-center ">
-    {/* Author Image */}
+  
     <div className="w-12 h-12">
         <Image
             src={auth}
@@ -125,8 +118,6 @@ const Reviews = () => {
             className="rounded-full"
         />
     </div>
-
-    {/* Author Name */}
     <p className="text-sm font-bold text-gray-700 mt-2">Killian Murphy</p>
 </div>
 <div className="text-xl font-bold text-purple-500">
@@ -140,9 +131,8 @@ const Reviews = () => {
                 <SwiperSlide><div className='bg-purple-100 border border-blue-100 h-60 w-64 rounded-2xl p-4'>
                 <div className="flex justify-between">
 
-{/* Image and Name Section */}
 <div className="flex flex-col items-center ">
-    {/* Author Image */}
+  
     <div className="w-12 h-12">
         <Image
             src={auth}
@@ -167,10 +157,8 @@ const Reviews = () => {
                 </div></SwiperSlide>
                 <SwiperSlide><div className='bg-purple-100 border border-blue-100 h-52 w-64 rounded-2xl p-4'>
                 <div className="flex justify-between">
-
-{/* Image and Name Section */}
 <div className="flex flex-col items-center ">
-    {/* Author Image */}
+   
     <div className="w-12 h-12">
         <Image
             src={auth}
@@ -182,7 +170,6 @@ const Reviews = () => {
         />
     </div>
 
-    {/* Author Name */}
     <p className="text-sm font-bold text-gray-700 mt-2">Killian Murphy</p>
 </div>
 <div className="text-xl font-bold text-purple-500">
@@ -195,10 +182,8 @@ const Reviews = () => {
                 </div></SwiperSlide>
                 <SwiperSlide><div className='bg-purple-100 border border-blue-100 h-56 w-64 rounded-2xl p-4'>
                 <div className="flex justify-between">
-
-{/* Image and Name Section */}
 <div className="flex flex-col items-center ">
-    {/* Author Image */}
+   
     <div className="w-12 h-12">
         <Image
             src={auth}
@@ -209,8 +194,6 @@ const Reviews = () => {
             className="rounded-full"
         />
     </div>
-
-    {/* Author Name */}
     <p className="text-sm font-bold text-gray-700 mt-2">Killian Murphy</p>
 </div>
 <div className="text-xl font-bold text-purple-500">
@@ -223,10 +206,8 @@ const Reviews = () => {
                 </div></SwiperSlide>
                 <SwiperSlide><div className='bg-purple-100 border border-blue-100 h-64 w-64 rounded-2xl p-4'>
                 <div className="flex justify-between">
-
-{/* Image and Name Section */}
 <div className="flex flex-col items-center ">
-    {/* Author Image */}
+    
     <div className="w-12 h-12">
         <Image
             src={auth}
@@ -237,8 +218,6 @@ const Reviews = () => {
             className="rounded-full"
         />
     </div>
-
-    {/* Author Name */}
     <p className="text-sm font-bold text-gray-700 mt-2">Killian Murphy</p>
 </div>
 <div className="text-xl font-bold text-purple-500">
@@ -251,10 +230,8 @@ const Reviews = () => {
                 </div></SwiperSlide>
                 <SwiperSlide><div className='bg-purple-100 border border-blue-100 h-60 w-64 rounded-2xl p-4'>
                 <div className="flex justify-between">
-
-{/* Image and Name Section */}
 <div className="flex flex-col items-center ">
-    {/* Author Image */}
+    
     <div className="w-12 h-12">
         <Image
             src={auth}
@@ -265,8 +242,6 @@ const Reviews = () => {
             className="rounded-full"
         />
     </div>
-
-    {/* Author Name */}
     <p className="text-sm font-bold text-gray-700 mt-2">Killian Murphy</p>
 </div>
 <div className="text-xl font-bold text-purple-500">
@@ -280,9 +255,8 @@ const Reviews = () => {
                 <SwiperSlide><div className='bg-purple-100 border border-blue-100 h-60 w-64 rounded-2xl p-4'>
                 <div className="flex justify-between">
 
-{/* Image and Name Section */}
 <div className="flex flex-col items-center ">
-    {/* Author Image */}
+   
     <div className="w-12 h-12">
         <Image
             src={auth}
@@ -294,7 +268,6 @@ const Reviews = () => {
         />
     </div>
 
-    {/* Author Name */}
     <p className="text-sm font-bold text-gray-700 mt-2">Killian Murphy</p>
 </div>
 <div className="text-xl font-bold text-purple-500">
