@@ -31,7 +31,7 @@ const Services = () => {
                         <h1 className="text-5xl font-bold">We provide...</h1>
                         {/* points */}
                        <div>
-                        <div className="flex gap-x-4  text-xl text-gray-500 font-medium my-5">
+                        <div className="flex gap-x-4  text-xl text-gray-500 font-medium my-10">
                             <p><FaCheckCircle /></p>
                             <p>Personalized routine</p>
                         </div>
