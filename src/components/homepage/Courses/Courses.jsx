@@ -27,9 +27,9 @@ const Courses = () => {
   return (
     <div className='container mx-auto my-20'>
       <div>
-        <h1 className='text-3xl font-bold'>Our Popular Courses</h1>
+        <h1 className='text-3xl md:text-left lg:text-left text-center font-bold ml-0 md:ml-5 lg:ml-0'>Our Popular Courses</h1>
         <div className="flex flex-col md:flex-row justify-between items-center mt-4">
-          <p className="text-center md:text-left text-gray-600 mb-4">
+          <p className="text-center md:text-left lg:text-left text-gray-600 mb-4 ml-0 md:ml-5 lg:ml-0">
             By taking proactive steps to nurture mental health, we can enhance our quality of life, <br />
             build resilience and foster a sense of inner peace and balance.
           </p>
