@@ -1,8 +1,10 @@
+import Image from "next/image";
 import { HiOutlineShoppingBag } from "react-icons/hi";
+import logo from "../../../public/assets/logo2.jpg"
 const Navbar = () => {
     return (
-        <div className="container mx-auto">
-            <div className="navbar bg-base-100">
+        <div className="bg-base-100 ">
+            <div className="navbar container mx-auto ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -31,7 +33,16 @@ const Navbar = () => {
         <li><a>Contact</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="">
+      <div className="flex">
+      <Image
+      src={logo}
+      alt="logo"
+      className="h-14 w-20 bg-transparent"
+      />
+      <p className="text-2xl font-bold mt-3 text-[#287279]">Healthify</p>
+      </div>
+    </a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

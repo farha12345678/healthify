@@ -28,6 +28,24 @@ const Reviews = () => {
                     clickable: true,
                 }}
                 modules={[Pagination]}
+                breakpoints={{
+                    // For mobile screens (up to 640px)
+                    300: {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                    },
+                    // For tablets (up to 768px)
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 15,
+                    },
+                    // For desktops (up to 1024px)
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
+                    },
+                    // Larger screens (default settings)
+                }}
                 className="mySwiper"
             >
           <SwiperSlide>

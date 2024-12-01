@@ -12,7 +12,7 @@ const Services = () => {
                         <Image
                             src={services}
                             alt="banner"
-                            className="max-w-md rounded-lg shadow-2xl"
+                            className="lg:max-w-md rounded-lg shadow-2xl"
                         />
                         {/* Leaf Image */}
                         <Image
